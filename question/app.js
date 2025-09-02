@@ -46,8 +46,16 @@ function sayHello() {
 }
 sayHello();
 
-// Q6 関数-2変数 sayWorld に World とコンソールに出力する無名関数を代入し、実行してください。
+// Q6 関数-2
 let sayWorld = function () {
   console.log('World');
 }
 sayWorld();
+
+// Q7 メソッド-1
+user.birthday = '2000-09-27';
+user.sayHello = function () {
+  console.log('Hello');
+}
+console.log(user.birthday);
+user.sayHello();
