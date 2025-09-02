@@ -95,7 +95,7 @@ console.log(x + ' を ' + y + ' で割った余りは ' + remainder(x, y) + ' �
 
 // Q10 スコープ
 function foo() {
-  let x = 1;
+  let x = 1; 111111111111
 }
 console.log(x);
 // 変数の有効範囲であるスコープの外にあるため。
@@ -108,3 +108,6 @@ console.log(x);
 
 let num = Math.floor(Math.random() * 10);
 console.log(num);
+
+// Q2 コールバック関数
+setTimeout(function () { console.log('Hello World!') }, 3000);
