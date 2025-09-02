@@ -36,3 +36,6 @@ let playerList = [
   },
 ];
 console.log(playerList[1].favorites[1]);
+
+// Q5 四則演算
+console.log((playerList[0].age + playerList[1].age + playerList[2].age) / 3);
