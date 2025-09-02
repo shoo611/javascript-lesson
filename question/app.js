@@ -84,3 +84,9 @@ calc.divide = function (x, y) {
   console.log(x / y);
 }
 calc.divide(20, 4);
+
+// Q9 返り値
+function remainder (x, y) {
+  return (x % y);
+}
+console.log('5 を 3 で割った余りは ' + remainder (5, 3) + ' です。');
