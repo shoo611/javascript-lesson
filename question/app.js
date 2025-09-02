@@ -52,10 +52,35 @@ let sayWorld = function () {
 }
 sayWorld();
 
-// Q7 メソッド-1
+// Q7 メソッド
 user.birthday = '2000-09-27';
 user.sayHello = function () {
   console.log('Hello');
 }
 console.log(user.birthday);
 user.sayHello();
+
+// Q8 引数-1
+let calc = {};
+calc.add = function (x, y) {
+  console.log(x + y);
+}
+calc.add(5, 2);
+
+// Q8 引数-2
+calc.subtract = function (x, y) {
+  console.log(x - y);
+}
+calc.subtract(20, 10);
+
+// Q8 引数-3
+calc.multiply = function (x, y) {
+  console.log(x * y);
+}
+calc.multiply(7, 7);
+
+// Q8 引数-4
+calc.divide = function (x, y) {
+  console.log(x / y);
+}
+calc.divide(20, 4);
