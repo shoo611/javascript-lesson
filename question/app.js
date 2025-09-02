@@ -39,3 +39,15 @@ console.log(playerList[1].favorites[1]);
 
 // Q5 四則演算
 console.log((playerList[0].age + playerList[1].age + playerList[2].age) / 3);
+
+// Q6 関数-1
+function sayHello() {
+  console.log('Hello');
+}
+sayHello();
+
+// Q6 関数-2変数 sayWorld に World とコンソールに出力する無名関数を代入し、実行してください。
+let sayWorld = function () {
+  console.log('World');
+}
+sayWorld();
