@@ -106,8 +106,18 @@ console.log(x);
 // 応用問題
 // Q1 標準組み込みオブジェクト
 
-let num = Math.floor(Math.random() * 10);
-console.log(num);
+let number = Math.floor(Math.random() * 10);
+console.log(number);
 
 // Q2 コールバック関数
 setTimeout(function () { console.log('Hello World!') }, 3000);
+
+// Q3 if
+let num = 0;
+if (num > 0) {
+  console.log('num is greater than 0');
+} else if (num < 0) {
+  console.log('num is less than 0');
+} else if (num === 0) {
+  console.log('num is 0');
+}
