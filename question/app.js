@@ -40,7 +40,7 @@ console.log(playerList[1].favorites[1]);
 // Q5 四則演算
 let sum = 0;
 for (i=0; i<playerList.length; i++) {
-  sum += Number(playerList[i].age);
+  sum += playerList[i].age;
 }
 console.log(sum / playerList.length);
 
