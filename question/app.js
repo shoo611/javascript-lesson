@@ -114,7 +114,9 @@ let number = Math.floor(Math.random() * 10);
 console.log(number);
 
 // Q2 コールバック関数
-setTimeout(function () { console.log('Hello World!') }, 3000);
+setTimeout(function () {
+  console.log('Hello World!')
+  }, 3000);
 
 // Q3 if
 let num = 0;
