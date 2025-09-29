@@ -38,7 +38,11 @@ let playerList = [
 console.log(playerList[1].favorites[1]);
 
 // Q5 四則演算
-console.log((playerList[0].age + playerList[1].age + playerList[2].age) / 3);
+let sum = 0;
+for (i=0; i<playerList.length; i++) {
+  sum += Number(playerList[i].age);
+}
+console.log(sum / playerList.length);
 
 // Q6 関数-1
 function sayHello() {
